@@ -15,20 +15,20 @@ window.onload = function() {
 
 	// Event listener for the play/pause button
 	playButton.addEventListener("click", function() {
-		if (video.paused == true) {
+//		if (video.paused == true) {
 			// Play the video
 			video.play();
 
 			// Update the button text to 'Pause'
-			playButton.innerHTML = "Pause";
-		} else {
+//			playButton.innerHTML = "Pause";
+//		} else {
 			// Pause the video
-			video.pause();
+//			video.pause();
 
 			// Update the button text to 'Play'
 			playButton.innerHTML = "Play";
 		}
-	});
+	);
 
 
 	// Event listener for the mute button
