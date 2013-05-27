@@ -1,0 +1,65 @@
+#home {
+	background-color:#666666;
+}
+
+#home header_home{
+	background-color:#666
+}
+
+#home .ui-grid-a { text-align: center; }
+
+
+#home .ui-block-a .ui-btn-a {
+
+	width: 35px;
+	height: 35px;
+	background:url(images/home_active.png) no-repeat;
+	background-color: transparent;
+	margin-left:10px;
+	
+}
+	
+#home .ui-block-b .ui-btn-h {
+
+	width: 35px;
+	height: 35px;
+	background:url(images/help.png) no-repeat;
+	background-color: transparent;
+	margin-right:10px;
+}
+
+#home .ui-block-b .ui-btn-i {
+
+	width: 35px;
+	height: 35px;
+	background:url(images/info.png) no-repeat;
+	background-color: transparent;
+	margin-right:10px;
+}
+
+#home .ui-block-b .ui-btn-c {
+
+	width: 35px;
+	height: 35px;
+	background:url(images/contact_us.png) no-repeat;
+	background-color: transparent;
+	margin-right:10px;
+}
+
+.ui-footer .ui-title {
+	font-size:12px;
+	font-weight:100;
+	font-style:normal;
+	color:#FFF;
+	outline:none;
+	
+	
+}
+
+.ui-footer{
+	background-color:#2d2f31;
+	height:50px;
+
+	
+	
+}
