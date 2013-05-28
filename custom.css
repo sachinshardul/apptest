@@ -1,65 +1,79 @@
 #home {
-	background-color:#666666;
+	background-color:#484848;
 }
 
 #home header_home{
 	background-color:#666
 }
 
-#home .ui-grid-a { text-align: center; }
-
-
-#home .ui-block-a .ui-btn-a {
-
-	width: 35px;
-	height: 35px;
-	background:url(images/home_active.png) no-repeat;
-	background-color: transparent;
-	margin-left:10px;
-	
-}
-	
-#home .ui-block-b .ui-btn-h {
-
-	width: 35px;
-	height: 35px;
-	background:url(images/help.png) no-repeat;
-	background-color: transparent;
-	margin-right:10px;
+.ui-header{
+	background-color:inherit;
+	height:50px
 }
 
-#home .ui-block-b .ui-btn-i {
+#home .ui-listview.lv_header_l { text-align: left; }
 
-	width: 35px;
-	height: 35px;
-	background:url(images/info.png) no-repeat;
-	background-color: transparent;
-	margin-right:10px;
+#home .ui-listview.lv_header_l .ui-btn .ui-li { border: none; }
+#home .ui-listview.lv_header_l .ui-btn .ui-li .ui-icon { display: none; }
+#home .ui-listview.lv_header_l .ui-btn .ui-li .ui-link-inherit { font-size: 1em; font-weight: normal; padding: 20px 0px 0px 0px; text-align: center; opacity:0 }
+
+
+#home .ui-listview.lv_header_l .ui-btn.btn_home {
+	width: 72px;
+	display: inline-block;
+	background:url(images/home_active.png) no-repeat 0px 0px;
+	border: none;
+	margin-left:8px;
+	margin-top:8px;
+	background-position: 0px 0px;
 }
+#home .ui-listview.lv_header_l .ui-btn.btn_home:hover {
+	background:url(images/home.png) no-repeat; 
+	}
 
-#home .ui-block-b .ui-btn-c {
+#home .ui-listview.lv_header_r { text-align:right; }
 
-	width: 35px;
-	height: 35px;
-	background:url(images/contact_us.png) no-repeat;
-	background-color: transparent;
-	margin-right:10px;
+#home .ui-listview.lv_header_r .ui-btn .ui-li { border: none; }
+#home .ui-listview.lv_header_r .ui-btn .ui-li .ui-icon { display: none; }
+#home .ui-listview.lv_header_r .ui-btn .ui-li .ui-link-inherit { font-size: 1em; font-weight: normal; padding: 20px 0px 0px 0px; text-align: center; opacity:0  }
+
+
+#home .ui-listview.lv_header_r .ui-btn.btn_help {
+	width: 50px;
+	display: inline-block;
+	background:url(images/help.png) no-repeat 0px 0px;
+	border: none;
+	margin-left:0px;
+	margin-top:8px;
+	background-position: 0px 0px;
 }
+#home .ui-listview.lv_header_r .ui-btn.btn_help:hover {
+	background:url(images/help_active.png) no-repeat; 
+	}
 
-.ui-footer .ui-title {
-	font-size:12px;
-	font-weight:100;
-	font-style:normal;
-	color:#FFF;
-	outline:none;
-	
-	
+#home .ui-listview.lv_header_r .ui-btn.btn_info {
+	width: 50px;
+	display: inline-block;
+	background:url(images/info.png) no-repeat 0px 0px;
+	border: none;
+	margin-left:0px;
+	margin-top:8px;
+	background-position: 0px 0px;
 }
-
-.ui-footer{
-	background-color:#2d2f31;
-	height:50px;
-
+#home .ui-listview.lv_header_r .ui-btn.btn_info:hover {
+	background:url(images/info_active.png) no-repeat; 
+	}
 	
-	
+#home .ui-listview.lv_header_r .ui-btn.btn_contact {
+	width: 50px;
+	display: inline-block;
+	background:url(images/contact_us.png) no-repeat 0px 0px;
+	border: none;
+	margin-left:0px;
+	margin-top:8px;
+	background-position: 0px 0px;
 }
+#home .ui-listview.lv_header_r .ui-btn.btn_contact:hover {
+	background:url(images/contact_us_active.png) no-repeat; 
+	}
+
