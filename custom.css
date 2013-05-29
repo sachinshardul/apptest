@@ -1,30 +1,27 @@
-#home {
-	background-color:#484848;
-}
 
 #home header_home{
 	background-color:#666
 }
 
-.ui-header{
-	background-color:inherit;
-	height:50px
+#home .ui-header{
+	background-color:#393939;
+	height:500px
 }
 
 #home .ui-listview.lv_header_l { text-align: left; }
 
 #home .ui-listview.lv_header_l .ui-btn .ui-li { border: none; }
 #home .ui-listview.lv_header_l .ui-btn .ui-li .ui-icon { display: none; }
-#home .ui-listview.lv_header_l .ui-btn .ui-li .ui-link-inherit { font-size: 1em; font-weight: normal; padding: 20px 0px 0px 0px; text-align: center; opacity:0 }
+#home .ui-listview.lv_header_l .ui-btn .ui-li .ui-link-inherit { font-size: 1.5em; font-weight: normal; padding: 20px 0px 0px 0px; text-align: center; opacity:0 }
 
 
 #home .ui-listview.lv_header_l .ui-btn.btn_home {
-	width: 72px;
+	width: 50px;
 	display: inline-block;
 	background:url(images/home_active.png) no-repeat 0px 0px;
 	border: none;
 	margin-left:8px;
-	margin-top:8px;
+	margin-top:5px;
 	background-position: 0px 0px;
 }
 #home .ui-listview.lv_header_l .ui-btn.btn_home:hover {
@@ -35,7 +32,7 @@
 
 #home .ui-listview.lv_header_r .ui-btn .ui-li { border: none; }
 #home .ui-listview.lv_header_r .ui-btn .ui-li .ui-icon { display: none; }
-#home .ui-listview.lv_header_r .ui-btn .ui-li .ui-link-inherit { font-size: 1em; font-weight: normal; padding: 20px 0px 0px 0px; text-align: center; opacity:0  }
+#home .ui-listview.lv_header_r .ui-btn .ui-li .ui-link-inherit { font-size: 1.5em; font-weight: normal; padding: 20px 0px 0px 0px; text-align: center; opacity:0  }
 
 
 #home .ui-listview.lv_header_r .ui-btn.btn_help {
@@ -44,7 +41,7 @@
 	background:url(images/help.png) no-repeat 0px 0px;
 	border: none;
 	margin-left:0px;
-	margin-top:8px;
+	margin-top:6px;
 	background-position: 0px 0px;
 }
 #home .ui-listview.lv_header_r .ui-btn.btn_help:hover {
@@ -57,7 +54,7 @@
 	background:url(images/info.png) no-repeat 0px 0px;
 	border: none;
 	margin-left:0px;
-	margin-top:8px;
+	margin-top:6px;
 	background-position: 0px 0px;
 }
 #home .ui-listview.lv_header_r .ui-btn.btn_info:hover {
@@ -70,10 +67,28 @@
 	background:url(images/contact_us.png) no-repeat 0px 0px;
 	border: none;
 	margin-left:0px;
-	margin-top:8px;
+	margin-top:6px;
 	background-position: 0px 0px;
 }
 #home .ui-listview.lv_header_r .ui-btn.btn_contact:hover {
 	background:url(images/contact_us_active.png) no-repeat; 
 	}
 
+#home .ui-listview.lv_training { text-align: left; }
+
+#home .ui-listview.lv_training .ui-btn .ui-li { border: none; }
+#home .ui-listview.lv_training .ui-btn .ui-li .ui-icon { display: none; }
+#home .ui-listview.lv_training .ui-btn .ui-li .ui-link-inherit { font-size: 1.5em; font-weight: normal; padding: 72px 0px 0px 0px; text-align: center; opacity:0 }
+
+
+#home .ui-listview.lv_training .ui-btn.btn_t {
+	width: 100px;
+	display: inline-block;
+	background:url(images/training.PNG) no-repeat 0px 0px;
+	border: none;
+	margin-top:20px;
+	background-position: 0px 0px;
+}
+#home .ui-listview.lv_training .ui-btn.btn_t:hover {
+	background:url(images/training_active.PNG) no-repeat; 
+	}
