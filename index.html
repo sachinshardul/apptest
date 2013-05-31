@@ -2,107 +2,177 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-<title>Medicinal Tutors</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medicinal Tutors App</title>
 <link href="jquery.mobile-1.3.1.min.css" rel="stylesheet" type="text/css"/>
 <link href="custom.css" rel="stylesheet" type="text/css"/>
 <script src="jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
-<script src="cordova-2.7.0.js" type="text/javascript"></script>
 </head> 
 <body> 
 
-<div data-role="page" id="home">
-	<div data-role="header" class="header_home" data-theme="reset">
-	  <div class="ui-grid-a">
-	    <div class="ui-block-a">
-        	<div data-role="content">
-				<ul data-role="listview" class="lv_header_l">
-					<li class="btn_home"><a href="#help">h</a></li>
-		
-				</ul>
-			</div>	
-        </div>
-	    <div class="ui-block-b">
-        	<div data-role="content">
-				<ul data-role="listview" class="lv_header_r">
-					<li class="btn_help"><a href="#help">h</a></li>
-					<li class="btn_info"><a href="#info">i</a></li>
-                    <li class="btn_contact"><a href="#contact">c</a></li>
-				</ul>
-        </div>
-      </div>
-		
-        
+<div data-role="page" id="home" data-theme="reset">
+	<div data-role="header" align="center">
+		<img src="images/mt_logo.PNG" width="100%"/>
 	</div>
-	<div data-role="content" align="center" style="background-color:#363636">
-	  	<img src="images/MT_Logo.png" width="100%" style="background-color:#363636; margin-top:-8px"/>
-      <video align="center" width="80%" height="267" poster="images/mt_video_lable.jpg" controls onPlay="fullscreen" >
-          <source src="file:///storage/extSdCard/Tech Series/MT_002_Sternum_Intro_4.mp4" type="video/mp4">
-      </video>
-    </div>
-        
-   
-        <div class="ui-grid-a my-breakpoint">
-          <div class="ui-block-a" align="center" style="width:75%; height:100px;" >
-          	<img src="images/explore the training.png" width="100%" style="background-color:#363636;"/>
-          </div>
-          <div class="ui-block-b" align="center" style="width:25%; background-color:#363636;">
-          	<div data-role="content">
-				<ul data-role="listview" class="lv_training">
-					<li class="btn_t"><a href="file:///storage/extSdCard/Tech Series/MT_002_Sternum_Intro_4.mp4">h</a></li>
-		
-				</ul>
-			</div>
-          </div>
-        </div>
-        
-     
-				
+	<div data-role="content" align="center">	
+		<ul data-role="listview">
+					<li class="btn_a"><a href="#about_us">About Us</a></li>
+		            <li class="btn_s"><a href="#training">Training</a></li>
+					<li class="btn_l"><a href="#info">Info</a></li>
+					<li class="btn_c"><a href="#contact_us">Contact Us</a></li>
+				</ul>		
 	</div>
-	<div data-role="footer" data-position="fixed" class="ui-footer" data-theme="reset" align="center" style="background-color:#393939; height:30px;">
-	  <div class="ui-grid-a" align="center">
-	    <div class="ui-block-a" style="width:100%; font-size:12px; margin-top:5px; color:#8C8C8C;">Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</div>
-      </div>
-  		   
-	 </div>
-	</div>
-</div>
-
-<div data-role="page" id="help">
-	<div data-role="header">
-		<h1>Page Two</h1>
-	</div>
-	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer" align="center">
-    <bbr>
+	<div data-role="footer" data-theme="reset" style="background-color:#111">
 		<h6>Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</h6>
 	</div>
 </div>
 
-<div data-role="page" id="info">
-	<div data-role="header">
-		<h1>Page Three</h1>
+<div data-role="page" id="about_us" data-theme="reset">
+	<div data-role="header" align="center">
+		<img src="images/mt_logo.PNG" width="100%"/>
 	</div>
-	<div data-role="content">	
-		Content		
+	<div data-role="content" align="left" style="color:#F8F8F8; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-size-adjust:inherit">	
+		<p>We at Medicinal Tutors are the industry leader in video-based medical training for people in the medical field. Medicinal Tutors mission has always been to provide the highest caliber training that both educates and inspires, in order to help Students as well as Professionals achieve their personal goals. Whether your interests are Neurology, Opthomology, Basic body Sciences or even various Surgeries, our Tranings help Medical enhtusiasts learn from the experience of others in order to save time and improve skills.Techniques that have taken our medical instructors years to master are available to students/professionals in a format that is unparalleled in medical education history. Our customers range from medical students who are just discovering the beautiful phase of medicine that lie ahead of them, to seasoned professionals with decades of experience.</p>
+
+<p>Our Core Team members maintain a constant dialogue with the medical industry to ensure that Medicinal Tutors maintains its position as a critical industry resource. As the demand for Medical Professionals increases and the overall medical phenomena continues to mature, education is the foundation of our industry's future.</p>
 	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
+	<div data-role="footer" data-theme="reset" style="background-color:#111">
+		<h6>Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</h6>
 	</div>
 </div>
 
-<div data-role="page" id="contact">
-	<div data-role="header">
-		<h1>Page Four</h1>
+<div data-role="page" id="training">
+	<div data-role="header" align="center">
+		<img src="images/mt_logo.PNG" width="100%"/>
 	</div>
-	<div data-role="content">	
-		Content		
+	<div data-role="content">
+    Training Videos
+      <ul data-role="listview" style="margin-top:20px">
+        <li><a href="#">
+          <h3>Introduction to the Thorax series </h3>
+          <p>Video 01 - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#sternum">
+          <h3>Introduction to the Sternum</h3>
+          <p>Video 02 - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Introduction to the Manubrium</h3>
+          <p>Video 02A - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Introduction to the Body of Sternum</h3>
+          <p>Video 02B - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Introduction to the Xiphoid Process</h3>
+          <p>Video 02C - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Introduction to the Thoracic vertebrae (T1 to T12)</h3>
+          <p>Video 03 - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Identification of Atypical Thoracic Vertebra - T1</h3>
+          <p>Video 03A - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Identification of Typical Thoracic Vertebra - T2 to T8</h3>
+          <p>Video 03B - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Identification of Atypical Thoracic Vertebra - T9 to T12</h3>
+          <p>Video 03C - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+        <li><a href="#">
+          <h3>Introduction of the Ribs</h3>
+          <p>Video 04 - The Thorax Series</p>
+          <p class="ui-li-aside"></p>
+        </a></li>
+      </ul>
+    Content </div>
+	<div data-role="footer" data-theme="reset" style="background-color:#111">
+		<h6>Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</h6>
 	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
+</div>
+
+<div data-role="page" id="info" data-theme="reset">
+	<div data-role="header" align="center">
+		<img src="images/mt_logo.PNG" width="100%"/>
+	</div>
+	<div data-role="content" style="color:#F8F8F8; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px">	
+		<h4>Medicinal Tutors is produced by S3D STUDIOS at Mumbai, India.</h4>
+        
+        Executive Producer:<br>
+        Sachin Shardul (S3D Studios)<br>
+		<br>
+        Medical Content:<br>
+        Dr. Avinash Wanjarwadkar<br>
+<br>
+        Instructional Designer:<br>
+        Pranav Bakshi<br>
+<br>
+        Artists (S3D Studios):<br>
+        Yogesh Kavale<br>
+        Rupesh Talaskar<br>
+        Chandrakant Kelkar<br>
+        Sachin Shardul<br>
+<br>
+        Head of operations:<br>
+        Ravi Chauhan (Access Learning Solutions)<br>
+<br>
+        Business Consultant:<br>
+        Sunil Jaiswal (Venture Quotient)<br>
+        
+	
+	</div>
+	<div data-role="footer" data-theme="reset" style="background-color:#111">
+		<h6>Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</h6>
+	</div>
+</div>
+
+<div data-role="page" id="contact_us" data-theme="reset">
+	<div data-role="header" align="center">
+		<img src="images/mt_logo.PNG" width="100%"/>
+	</div>
+	<div data-role="content" align="center" style="color:#F8F8F8; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px">	
+		<h3>Medicinal Tutors</h3><br>
+        C/O S3D Studios <br>
+        2-C/507,Jankalyan nagar,<br>
+        Malad(w), Mumbai, India.<br>
+        Email : contact@medicinaltutors.com<br>
+        Tel.no.: +91-9819163304<br>
+	</div>
+	<div data-role="footer" data-theme="reset" style="background-color:#111">
+		<h6>Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</h6>
+	</div>
+</div>
+
+<div data-role="page" id="sternum" data-theme="reset">
+	<div data-role="header" align="center">
+		<img src="images/mt_logo.PNG" width="100%"/>
+	</div>
+  <div data-role="content" align="center" style="color:#F8F8F8; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px">	
+		<h3>Training Video : Introduction to the Sternum</h3><br>
+    <video width="100%" poster="images/poster.jpg" style="margin-top:0px auto" controls >
+          <source src="file:///mnt/sdcard/Video/MT_002_Sternum_Intro.mp4" type="video/mp4">
+    </video>
+    
+    <p align="left" style="margin-top:40px;">THE STERNUM : </p>
+    <p align="left">The anterior median part of the thoracic skeleton, is formed by the sternum. which is a flat bone. The sternum is about 17cm (7 inches) long. In Shape the sternum resembles the overall structure of a tie. The upper part of the tie also known as the knot corresponds to the upper part of the sternum which is called the manubrium. The middle part resembling the Flap of the tie is called the body of sternum, and the lowest tapering part forming the tip of the tie is the xiphoid process or xiphisternum. The sternum is longer in male whereas its shorter in female.</p>
+    </div>
+	<div data-role="footer" data-theme="reset" style="background-color:#111">
+		<h6>Medicinal Tutors is a registered trademark of S3D STUDIOS,Inc.</h6>
 	</div>
 </div>
 
