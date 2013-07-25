@@ -6,15 +6,15 @@
 
 xmlns:gap = "http://phonegap.com/ns/1.0"
 
-id = "com.fetalecho.PrematureLabor"
+id = "com.sachin.MedicalCatalogue"
 
 version = "1.0.0">
 
-<name>Treatment of Premature Labor</name>
+<name>Medical Catalogue</name>
 
 <description>
 
-This program describes the treatment of premature labor
+Product catalogue sample
 
 </description>
 
