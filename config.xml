@@ -32,7 +32,7 @@ Greggory R. DeVore, M.D.
 
 <preference name="target-device" value="universal" />
 
-<gap:plugin name="ChildBrowser" />
+<gap:plugin name="com.phonegap.plugins.ChildBrowser" />
 
 
 
