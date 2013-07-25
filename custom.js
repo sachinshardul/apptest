@@ -3,4 +3,3 @@ $(document).bind("mobileinit", function(){
    defaultPageTransition: 'slide'
   });
 });
-
