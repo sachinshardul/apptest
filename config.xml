@@ -18,7 +18,7 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "io.cordova.helloCordova"
+        id        = "com.sachin.medineapp"
         version   = "2.0.0">
     <name>Medine App</name>
 
@@ -36,7 +36,7 @@
     <content src="index.html" />
 
     <preference name="loglevel" value="DEBUG" />
-	
+	<preference name="phonegap-version" value="2.9.0" />
     <!--
       <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
