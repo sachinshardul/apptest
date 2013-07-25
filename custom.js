@@ -5,5 +5,5 @@ $(document).bind("mobileinit", function(){
 });
 
 $(document).ready(function(){ 
-var myPhotoSwipe = $("#Gallery a").photoSwipe({ enableMouseWheel: false , enableKeyboard: false });
+var myPhotoSwipe = $("#Gallery a").photoSwipe({ enableMouseWheel: false , enableKeyboard: false , allowUserZoom: true });
  }); 
