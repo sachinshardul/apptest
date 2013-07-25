@@ -4,8 +4,4 @@ $(document).bind("mobileinit", function(){
   });
 });
 
-$(document).ready(function(){ 
-var myPhotoSwipe = $("#Gallery a").photoSwipe({ enableMouseWheel: false , enableKeyboard: false , allowUserZoom: true });
- }); 
- 
- var myscroll = new iScroll('wrapper', { zoom: true });
+
