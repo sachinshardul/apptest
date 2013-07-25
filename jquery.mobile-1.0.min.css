@@ -44,7 +44,7 @@
 	position: static
 }.ui-header .ui-btn-left{position:absolute;left:10px;top:.4em}.ui-header .ui-btn-right{position:absolute;right:10px;top:.4em}.ui-header .ui-title,.ui-footer .ui-title{
 	min-height: 1.1em;
-	text-align: left;
+	text-align: center;
 	font-size: 16px;
 	display: block;
 	margin: .6em 90px .8em;
