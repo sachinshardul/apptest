@@ -28,9 +28,11 @@ Greggory R. DeVore, M.D.
 
 <preference name="phonegap-version" value="2.9.0" />
 
-<preference name="orientation" value="default" />
+<preference name="orientation" value="portrait" />
 
 <preference name="target-device" value="universal" />
+
+<preference name="fullscreen" value="true" />
 
 <gap:plugin name="com.phonegap.plugins.ChildBrowser" />
 
